@@ -18,8 +18,8 @@ graph = []
 line = []
 for i in range(nodes):
     for j in range(nodes):
-        line.add(int(input))
-    graph.add(line)
+        line.append(int(input))
+    graph.append(line)
 start = int(input)
 
 print(dijkstra(graph, start))
